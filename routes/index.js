@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/goto', function(req, res, next) {
+    res.render('index', { title: 'CSU East Bay' });
+});
+
 module.exports = router;
