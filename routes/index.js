@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/goto', function(req, res, next) {
-    res.render('index', { title: 'CSU East Bay' });
+    res.render('csu', { title: 'CSU East Bay' });
 });
 
 module.exports = router;
